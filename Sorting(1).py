@@ -126,13 +126,13 @@ for i in range(1,10):
   times.append(end-start)
 
 
-plt.xlabel="List length"
-plt.ylabel="Time Complexity"
-
+plt.xlabel("List length")
+plt.ylabel("Time Complexity")
 plt.plot(elements,times,label=labeldata)
 plt.grid()
 plt.legend()
 plt.show()
+
 
 
 
